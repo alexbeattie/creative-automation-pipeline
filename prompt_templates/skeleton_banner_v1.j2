@@ -1,0 +1,25 @@
+Editorial product photograph of {{ product_name }} for wide-banner placement.
+
+LAYOUT INTENT: {{ composition_directive }}.
+The right ~40% of the frame must be uncluttered (gradient backdrop, blurred
+foliage, or similar) so a headline can be overlaid. The product anchors the
+left third; the gaze travels right into the empty space.
+
+{{ product_description }}
+
+Audience: {{ audience }}.
+Market: {{ region }} ({{ locale }}).
+
+Brand {{ brand_name }}: {{ brand_voice }}
+{% if brand_palette %}Palette: {{ brand_palette | join(', ') }}.
+{% endif %}{% if brand_must_include %}Include: {{ brand_must_include | join(', ') }}.
+{% endif %}
+Locale ({{ locale_language }}):
+{% if locale_aesthetic_keywords %}- Aesthetic: {{ locale_aesthetic_keywords | join(', ') }}
+{% endif %}{% if locale_cultural_cues %}- Cultural cues: {{ locale_cultural_cues | join(', ') }}
+{% endif %}{% if locale_seasonal_context %}- Seasonal: {{ locale_seasonal_context }}
+{% endif %}
+Avoid: {{ avoid_list | join(', ') }}.
+
+Photorealistic, low-contrast lighting that won't fight overlaid text, no text
+or typography rendered into the image.

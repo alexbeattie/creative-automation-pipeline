@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    @apply border-slate-300 bg-white text-slate-900 placeholder-slate-400
+           focus:border-slate-500 focus:ring-slate-500
+           dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100
+           dark:placeholder-slate-500 dark:focus:border-slate-500
+           dark:focus:ring-slate-500;
+  }
+}

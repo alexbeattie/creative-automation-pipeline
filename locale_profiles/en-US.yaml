@@ -1,0 +1,27 @@
+locale: en-US
+language: English
+
+cultural_cues:
+  - urban East Coast / West Coast aesthetic
+  - diverse cast across ethnicities and ages
+  - casual professional dress
+  - aspirational but approachable
+
+seasonal_context: >-
+  Late spring into early summer: longer daylight, pastel-leaning palettes,
+  outdoor café and park settings starting to feel natural.
+
+aesthetic_keywords:
+  - soft golden-hour light
+  - shallow depth of field
+  - documentary realism
+  - candid, unposed body language
+
+forbidden_imagery:
+  - explicit gestures
+  - alcohol unless explicitly briefed
+  - religious symbols
+  - tobacco
+
+currency: USD
+units: imperial

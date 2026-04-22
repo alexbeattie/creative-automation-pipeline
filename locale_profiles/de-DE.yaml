@@ -1,0 +1,28 @@
+locale: de-DE
+language: German
+
+cultural_cues:
+  - understated Berlin / Hamburg sensibility
+  - sustainability cues subtly visible (reusable materials, plants)
+  - functional, considered styling, not flashy
+  - factual tone, no hype
+
+seasonal_context: >-
+  Late spring in northern Europe: cool morning light, balcony gardens, light
+  layered jackets still in frame.
+
+aesthetic_keywords:
+  - even, slightly cool natural light
+  - architectural composition
+  - matte finishes
+  - calm, deliberate body language
+
+forbidden_imagery:
+  - aggressive comparison
+  - over-saturation
+  - religious symbols
+  - tobacco
+  - excessive luxury signaling
+
+currency: EUR
+units: metric

@@ -1,0 +1,39 @@
+id: spring_glow
+name: Spring Glow
+version: 2026.04.01
+
+voice: >-
+  Warm, confident, never hyperbolic. Speaks like a knowledgeable friend who
+  happens to be a chemist. Avoids exclamation marks and superlatives.
+
+palette:
+  - "#F4C7C3" # blush
+  - "#F8E5C0" # warm sand
+  - "#2E2E2E" # near-black
+  - "#FFFFFF" # white
+
+must_include:
+  - natural daylight
+  - dewy, hydrated skin texture
+  - minimalist staging with soft shadows
+  - unretouched, real-skin look
+
+must_avoid:
+  - medical or clinical claims
+  - before/after collages
+  - heavy retouching or airbrushing
+  - competitor logos
+  - text rendered into the image
+  - unsafe stunts
+
+restricted_phrases:
+  - miracle
+  - cure
+  - 100% guaranteed
+  - clinically proven
+  - anti-aging
+
+tone_examples:
+  - "Skin that wakes up before you do."
+  - "Less effort. More glow."
+  - "Hydration that holds, all day."

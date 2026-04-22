@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+node_modules/
+dist/
+.vite/
+
+output/
+*.png
+!ui/src/**/*.png
+
+.DS_Store
+.idea/
+.vscode/
+
+# Personal notes (local only)
+notes/
+STUDY.md
+
+FDE Take Home Lite.pdf

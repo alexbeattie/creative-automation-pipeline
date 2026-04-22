@@ -1,0 +1,21 @@
+Editorial product photograph of {{ product_name }}.
+{{ product_description }}
+
+Audience: {{ audience }}.
+Market: {{ region }} ({{ locale }}).
+
+Composition: {{ composition_directive }}.
+
+Brand voice and visual cues for {{ brand_name }}:
+- Voice: {{ brand_voice }}
+{% if brand_palette %}- Brand palette: {{ brand_palette | join(', ') }}
+{% endif %}{% if brand_must_include %}- Must include: {{ brand_must_include | join(', ') }}
+{% endif %}
+Locale aesthetic ({{ locale_language }}):
+{% if locale_aesthetic_keywords %}- Aesthetic: {{ locale_aesthetic_keywords | join(', ') }}
+{% endif %}{% if locale_cultural_cues %}- Cultural cues: {{ locale_cultural_cues | join(', ') }}
+{% endif %}{% if locale_seasonal_context %}- Seasonal: {{ locale_seasonal_context }}
+{% endif %}
+Avoid: {{ avoid_list | join(', ') }}.
+
+Photorealistic, soft natural lighting, no text or typography rendered into the image.

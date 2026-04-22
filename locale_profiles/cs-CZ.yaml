@@ -1,0 +1,33 @@
+locale: cs-CZ
+language: Czech
+
+cultural_cues:
+  - "Old Town Prague: cobblestones, baroque arcades, ironwork lanterns"
+  - café and bakery culture rooted in craft, not novelty
+  - quiet pride in handmade, slightly imperfect artisan work
+  - understated humor, no hard sell, no superlatives
+  - tourist-facing imagery should still feel locally authentic, not theme-park
+
+seasonal_context: >-
+  Late spring in Central Europe: warm daylight returning to Old Town Square and
+  Náplavka riverside markets, light jackets at dawn, terraces opening, the
+  scent of cinnamon and yeast carrying further in cooler morning air.
+
+aesthetic_keywords:
+  - warm tungsten light spilling from arcades
+  - brass, copper, and worn-wood surface tones
+  - "tactile food photography with visible texture (sugar crystals, steam, char marks)"
+  - artisanal hands in frame, flour-dusted, unstaged
+  - shallow depth of field, golden-brown highlights against cool stone backgrounds
+
+forbidden_imagery:
+  - '"gypsy" or vaguely "Bohemian" stereotypes'
+  - communist-era kitsch used ironically
+  - "heavy alcohol presence unless explicitly briefed (beer is local but distracting for a pastry brand)"
+  - religious symbols
+  - tobacco
+  - over-saturated, theme-park-tourist styling
+  - 'stock-photo "happy tourist holding food up to camera" cliché'
+
+currency: CZK
+units: metric

@@ -1,0 +1,50 @@
+# Prompt-shape configuration. Hot-editable; loaded once at startup by
+# `pipeline.prompt.config.load_prompt_config`.
+#
+# Editing this file is the right way to:
+#   - tighten composition rules per channel (story/banner/feed) globally
+#   - add/remove always-on safety directives
+#   - choose which versioned prompt templates each channel uses
+#
+# Editing this file is NOT how you customize a single brand. Use a
+# brand profile + an optional `template_version:` override there instead.
+
+# Filename stem under prompt_templates/, used when no per-channel or
+# per-brand override applies. Bumping this is how you ship a new prompt
+# shape globally without invalidating past assets (each Asset records the
+# template_version it was rendered with).
+default_template_version: skeleton_v1
+
+# Optional per-channel template overrides. Lets the story / banner channels
+# foreground their specific layout constraints without forcing every channel
+# to share one shape. Add or remove entries as your channel mix evolves.
+templates_by_channel:
+  story_vertical: skeleton_story_v1
+  display_banner: skeleton_banner_v1
+
+# Per-channel composition directive injected into the rendered prompt.
+# Required: every Channel value must be present (the loader back-fills any
+# missing entries from code defaults and warns).
+composition_by_channel:
+  social_feed_square: >-
+    balanced centered composition for social feed; subject fills the safe area
+  social_feed_portrait: >-
+    vertical hero composition with the product offset slightly low for
+    thumb-stop
+  story_vertical: >-
+    vertical full-bleed composition with clear headroom (top 20%) and
+    footer (bottom 20%) safe-areas for UI overlays
+  display_landscape: >-
+    wide editorial composition with the subject left-of-center and negative
+    space on the right
+  display_banner: >-
+    wide banner composition with strong horizontal eye-line and clean
+    negative space on the right for headline overlay
+
+# Always-on brand-hygiene rules merged into every asset's avoid_list,
+# independent of brand or locale. Brand-specific bans live in the brand
+# profile's `must_avoid:`.
+safety_directives:
+  - no text, captions, or watermarks rendered into the image
+  - no faces of identifiable real public figures
+  - no logos other than implied product packaging

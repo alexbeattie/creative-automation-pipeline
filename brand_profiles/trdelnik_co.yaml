@@ -1,0 +1,42 @@
+id: trdelnik_co
+name: Trdelník Co.
+version: 2026.04.01
+
+voice: >-
+  Warm, artisan, plainspoken. Speaks like a baker who knows their craft and
+  doesn't need to oversell it. Short sentences, no superlatives, no "world's
+  best" or "must-try" hype.
+
+palette:
+  - "#5B3A1E" # cinnamon brown
+  - "#E8C892" # warm cream
+  - "#C9892F" # toasted gold
+  - "#2A1810" # dark espresso
+
+must_include:
+  - golden-brown crust with visible char marks
+  - cinnamon-sugar dust catching the light
+  - hand-rolled wooden spit visible in at least one frame
+  - warm tungsten or hearth-fire lighting
+  - tactile, slightly imperfect artisan feel
+
+must_avoid:
+  - pre-packaged plastic wrappers or industrial signage
+  - over-saturated tourist-stand colors
+  - ice cream / Nutella stuffing close-ups (touristy variant, off-brand here)
+  - fake "old country" theatrical props
+  - text rendered into the image
+  - competitor logos
+
+restricted_phrases:
+  - authentic Czech tradition
+  - ancient recipe
+  - world's best
+  - must-try
+  - bohemian
+  - traditional Czech pastry
+
+tone_examples:
+  - "Wood fire. Twenty minutes. Worth the wait."
+  - "Warm dough, real char, no shortcuts."
+  - "Rolled by hand. Baked over flame."

@@ -1,0 +1,23 @@
+Editorial product photograph of {{ product_name }} designed for a story or reel placement.
+
+CRITICAL FRAMING: {{ composition_directive }}.
+Subject MUST sit in the central 60% of the frame. Top 20% and bottom 20% should be
+clean negative space (sky, surface, or out-of-focus background) to survive UI overlay.
+
+{{ product_description }}
+
+Audience: {{ audience }}.
+Market: {{ region }} ({{ locale }}).
+
+Brand {{ brand_name }}: {{ brand_voice }}
+{% if brand_palette %}Palette: {{ brand_palette | join(', ') }}.
+{% endif %}{% if brand_must_include %}Include: {{ brand_must_include | join(', ') }}.
+{% endif %}
+Locale ({{ locale_language }}):
+{% if locale_aesthetic_keywords %}- Aesthetic: {{ locale_aesthetic_keywords | join(', ') }}
+{% endif %}{% if locale_cultural_cues %}- Cultural cues: {{ locale_cultural_cues | join(', ') }}
+{% endif %}{% if locale_seasonal_context %}- Seasonal: {{ locale_seasonal_context }}
+{% endif %}
+Avoid: {{ avoid_list | join(', ') }}.
+
+Photorealistic, soft natural lighting, no text or typography rendered into the image.

@@ -1,0 +1,27 @@
+locale: ja-JP
+language: Japanese
+
+cultural_cues:
+  - subtle, refined "wabi-sabi" sensibility
+  - careful negative space, almost editorial
+  - close attention to packaging detail and texture
+  - polite, indirect tone
+
+seasonal_context: >-
+  Late spring (晩春): cherry-blossom petals settling, soft overcast light,
+  pastel-into-fresh-green palette, urban Tokyo or Kyoto contexts.
+
+aesthetic_keywords:
+  - soft diffused natural light
+  - minimalist composition with generous negative space
+  - tactile material focus
+  - refined product hero shot
+
+forbidden_imagery:
+  - exaggerated emotion or shock
+  - religious symbols
+  - tobacco
+  - culturally inappropriate gestures
+
+currency: JPY
+units: metric
